@@ -1,6 +1,6 @@
 # Machine learning techniques to classify Parkinson's disease in the first four levels of the H-Y scale.
 
-<p align="center"><img src="CF_figs/BAK3cm_RF.png" /></p>
+<p align="center"><img src="CF_figs/cm_RF_logo.png" /></p>
 
 
 ## Performance Metrics:</br>
