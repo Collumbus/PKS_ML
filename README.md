@@ -1,2 +1,12 @@
 # Machine learning techniques to classify Parkinson's disease in the first four levels of the H-Y scale.
-# ![logo](CF_figs/BAK3cm_RF.png)
+
+<p align="center"><img src="CF_figs/BAK3cm_RF.png" /></p>
+
+
+## Performance Metrics:</br>
+<p align="center">
+Sensitivity 56.20% </br>
+Specificity 85.35% </br>
+Precision 56.14% </br>
+Accuray 78.04% </br>
+</p>
