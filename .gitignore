@@ -1,0 +1,21 @@
+# Jupyter Notebook
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.data
+*.npy
+#*.edf
+*.txt
+*.pkl
+*.csv
+
+# Figures
+#*.png
+#*.jpg
+
+# OS X system files
+.DS_Store
+
+#python compiled files
+*.pyc
