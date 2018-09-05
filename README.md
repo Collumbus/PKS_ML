@@ -5,8 +5,10 @@
 
 ## Performance Metrics:</br>
 <p align="center">
-Sensitivity 56.20% </br>
-Specificity 85.35% </br>
-Precision 56.14% </br>
-Accuray 78.04% </br>
+Sensitivity 59.92% </br>
+Specificity 86.58% </br>
+Precision 58.19% </br>
+Accuray 80.35% </br>
 </p>
+
+<p align="center"><img src="CF_figs/ROC_RF.png" /></p>
