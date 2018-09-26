@@ -89,7 +89,7 @@ def PlotFft(Xc, F, fig_name=False):
     plt.rc('grid', linestyle="dotted", color='black')
 
     plt.setp([a.get_xticklabels() for a in f.axes[:-1]], visible=False)
-    f.set_size_inches(w=10,h=8)
+    f.set_size_inches(w=12,h=10)
 
     if fig_name!=False:
         f.savefig('classificar/preproc_figs/signal_fft')
@@ -131,7 +131,7 @@ def PlotFile(dfn, fig_name=False, tSinal='Puro', fill=False, debug=False, lw=0.2
         print (np.shape(dfn))
 
     plt.setp([a.get_xticklabels() for a in f.axes[:-1]], visible=False)
-    f.set_size_inches(w=10,h=8)
+    f.set_size_inches(w=12,h=10)
 
     if fill==True:
         ax1.fill_between(fs,0,dfn['Ch1'][:], color = '#B22222', alpha=0.3)

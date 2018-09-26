@@ -239,8 +239,8 @@ def Metrics(y_pred, y_real, clf, nivel):
         y = np.array([''])
         plt.yticks(range(len(y)), y)
         #plt.yticks(tick_marks, 1)
-        thresh = cm.max() / 2.
-
+        thresh = cm[0].max() * .85
+        #print thresh
         for i in (range(cm.shape[1])):
             plt.text(i,0.05, ('%.2f' % cm[0][i]), horizontalalignment="center", color="white" if cm[0][i] > thresh else "black")
 
@@ -249,7 +249,7 @@ def Metrics(y_pred, y_real, clf, nivel):
         plt.xlabel(u'Probabilidade de Níveis')
 
         fig_name = 'classificar/CF_figs/PL.png'
-        fig.set_size_inches(w=10,h=8)
+        fig.set_size_inches(w=12,h=10)
         fig.savefig(fig_name)
 
     np.seterr(divide='ignore', invalid='ignore')
@@ -260,7 +260,7 @@ def Metrics(y_pred, y_real, clf, nivel):
 ###################
 
 ###################
-def processing(nivel,debug=False):
+def processing(nivel=1,debug=False):
     # Processamento dos dados
     ## Cria array com nome dos arquivos de amostra
     if platform == "linux" or platform == "linux2":
