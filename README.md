@@ -1,9 +1,9 @@
 # Machine learning techniques to classify Parkinson's disease in the first four levels of the H-Y scale.
 
 <p align="center"><img src="README_figs/cm_RF.png" /></p>
-###Random Forest - Confusion Matrix:
+### Random Forest - Confusion Matrix:
 
-###Random Forest - ROC Curve:
+### Random Forest - ROC Curve:
 <p align="center"><img src="README_figs/ROC_RF.png" /></p>
 
 ## Performance Metrics:</br>
